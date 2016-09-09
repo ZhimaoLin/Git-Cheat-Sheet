@@ -10,3 +10,16 @@ Another command that we learned about was 'git add', it is used to add a file to
 example usage:
 git add my_new_file.txt
 git status # to list the new files or changes that have been added to your project.
+
+Another command that corresponds to git add is git rm
+example usage:
+git add my_file.txt
+cp my_file.txt my_file2.txt
+git add my_file2.txt
+git status
+git commit -am 'comments'
+git push
+
+emacs .gitignore # ignore those files
+*~
+*.log 
